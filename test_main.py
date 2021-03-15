@@ -5,7 +5,7 @@ class Test_file(unittest.TestCase):
      
 
     #Test que le fichier exist
-    def test_check_file_exist_main.py(self):
+    def test_check_file_exist_main(self):
         directory_path = './main.py' # somepath
         self.assertTrue(os.path.exists(directory_path)) 
     
