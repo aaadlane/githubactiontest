@@ -8,7 +8,7 @@ jobs:
         uses: actions/checkout@master
       - name: prepare python
         uses: actions/setup-python@v2
-          with: 
-            python-version: '3.8'
+        with: 
+          python-version: '3.8'
       - name: Test
         uses: aaadlane/githubactiontest@master
